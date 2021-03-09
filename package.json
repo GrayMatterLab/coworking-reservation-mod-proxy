@@ -1,34 +1,31 @@
 {
-  "name": "carousal-proxy",
+  "name": "coworking-reservation-mod-proxy",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "engines": {"node": ">=14.15.0"},
+  "main": "practice.js",
   "scripts": {
-    "start": "node index.js",
-    "start:dev": "nnodemon server"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "start:dev": "nodemon server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tmotaleb/carousal-proxy.git"
+    "url": "git+https://github.com/moe12572/coworking-reservation-mod-proxy.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tmotaleb/carousal-proxy/issues"
+    "url": "https://github.com/moe12572/coworking-reservation-mod-proxy/issues"
   },
-  "homepage": "https://github.com/Tmotaleb/carousal-proxy#readme",
+  "homepage": "https://github.com/moe12572/coworking-reservation-mod-proxy#readme",
   "dependencies": {
-    "eslint": "^7.21.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.6",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "css-loader": "^5.1.1"
   }
 }
